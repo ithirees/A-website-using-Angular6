@@ -1,0 +1,15 @@
+.jumbotron {
+  background: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--logo-brown);
+}
+.jumbotron img {
+  width: 20%;
+  padding: 1em 0;
+}
+.jumbotron div {
+  padding: 1em;
+  text-align: center;
+}

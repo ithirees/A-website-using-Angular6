@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --logo-yellow: rgba(255, 132, 9, 0.8);
+  --logo-brown: rgb(112, 0, 0);
+  --background: #ffeabae6;
+}
+
+body {
+  background: var(--background);
+}
+
+.btn-style {
+  width: 100%;
+  margin: 10px auto;
+  transition: all 0.4s ease-in-out;
+  outline: none;
+}
+.btn-style:hover {
+    background-color: var(--logo-yellow);
+    color: white;
+  }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    padding-top: 40px;
+  }
+}

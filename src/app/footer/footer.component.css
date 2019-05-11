@@ -1,0 +1,65 @@
+a, a:link, a:active {
+    text-decoration: none;
+    color: rgba(253,138,9,0.7);
+    transition: all 0.5s ease-in-out 0.1s;
+}
+a:hover {
+    color: rgba(250, 100, 100, 0.63);
+}
+.footer {
+    background: rgb(112,0,0);
+    position: relative;
+    z-index: 5;
+}
+.row {
+    margin: 0;
+}
+.leftfoot, .rightfoot {
+    padding: 20px;
+    text-align: center;
+}
+.leftfoot div {
+    font-size: 1.2em;
+}
+.leftfoot span.site-marker {
+    margin-left: 30px;
+    color: white;
+}
+span.site-marker i {
+    color: var(--logo-yellow);
+}
+.rightfoot {
+    display: flex;
+    flex-direction: column;
+}
+.rightfoot span {
+    color: rgb(253, 138, 9);
+}
+.social {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.social > a {
+    list-style: none;
+    margin: auto 5px;
+    border: 1px solid white;
+    border-radius: 10%;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.social a i {
+    color: white;
+    font-size: 1.2em;
+}
+.social-facebook:hover {
+    background-color: #3B5998;
+}
+.social-twitter:hover {
+    background-color: #00aced;
+}
+.social-instagram:hover {
+    background-color:  #e95950;
+}

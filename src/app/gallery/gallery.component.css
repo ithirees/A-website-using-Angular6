@@ -1,0 +1,34 @@
+.container-fluid {
+    padding: 0;
+    height: 80vh;
+}
+.gallery-image {
+    display: flex;
+}
+.gallery-image span {
+    overflow: hidden;
+    background: var(--logo-brown);
+    padding: 0;
+    height: 50%;
+    transition: all 800ms ease;
+}
+.gallery-image span img{
+    cursor: pointer;
+    height: 20em;
+    opacity: .5;
+    transition: all 500ms ease;
+}
+.gallery-image span:hover {
+    transform: scale3d(1.5, 1.4, 1) translate3d(0em, 5em, 3em);
+    z-index: 10;
+}
+.gallery-image span:hover:nth-child(1) {
+    transform: scale3d(1.5, 1.4, 1) translate3d(6em, 5em, 2em);
+}
+.gallery-image span:hover:nth-child(4) {
+    transform: scale3d(1.5, 1.4, 1) translate3d(-6em, 5em, 2em);
+}
+.gallery-image span:hover img{
+    transform: scale(1.5);
+    opacity: 1;
+}

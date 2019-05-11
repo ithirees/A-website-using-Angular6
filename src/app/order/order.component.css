@@ -1,0 +1,43 @@
+.menucarousel-seeall {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: var(--logo-yellow);
+  font-size: 1.5em;
+}
+.item-price.ribbontag {
+  width: 25%;
+}
+.slickitems .item-img {
+  width: 15em;
+  height: 9em;
+}
+
+.ribbontag {
+  position: absolute;
+  background-color: var(--logo-brown);
+  color: white;
+  text-align: center;
+  padding: 2px 0;
+  top: 0.8em;
+  right: -0.2em;
+  border-radius: 3px;
+  width: 35%;
+}
+
+.ribbontag::before {
+  content: "";
+  position: absolute;
+  display: block;
+  border: 8px solid var(--logo-brown);
+  border-radius: 20%;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  bottom: -0.9em;
+  left: 0;
+  z-index: -2;
+}
+
+.ordersection {
+  padding-top: 1em;
+}

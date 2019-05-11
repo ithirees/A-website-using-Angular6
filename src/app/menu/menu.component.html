@@ -1,0 +1,33 @@
+<div class="container">
+  <ul class="menuselection row">
+    <li *ngFor="let item of TITLE"><a (click)="scrollIntoView($event)">{{ item }}</a></li>
+  </ul>
+  <div class="row menulist" *ngFor="let item of TITLE; let i = index">
+    <div class="col-md-12 menutitle" [attr.id]="'menuTitle' + i">
+      <section class="menu-wrap">
+        <section class="menu-inner-wrap">
+          <span class="menutitlename">{{ item }}</span>
+        </section>
+      </section>
+    </div>
+    <div class="col-md-12 menudetail">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-12 menuitem" *ngFor="let i of MENU[item]">
+          <div class="col-md-3 menuitem-image">
+            <img src="assets/menuimg/{{ i.imgPath }}" alt="Cuisine" class="img-responsive">
+          </div>
+          <div class="col-md-9 menuitem-detail">
+            <section class="menuitemhead">
+              <span class="menuitemname">{{i.name}}</span>
+              <span class="menuitemprice ribbon"> € {{i.price}}</span>
+            </section>
+            <span class="menuitemdesc">
+              <p>{{i.desc1}}</p>
+              <p>{{i.desc2}}</p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,38 @@
+.special .special-title{
+    color: var(--logo-yellow);
+}
+.special .row {
+    padding: 1em;
+}
+.slick-slider {
+    padding: 1em 2em;
+}
+.slickitems {
+    position: relative;
+}
+.slickitems .item-img{
+    width: 22em;
+    height: 12em;
+    margin: auto;
+    border: 1px solid var(--logo-yellow);
+    border-radius: 1em;
+}
+.slickitems .item-name {
+    padding: 0.6em;
+    text-align: center;
+    display: block;
+    margin: auto;
+    color: var(--logo-yellow);
+}
+.slickitems .item-price {
+    cursor: pointer;
+    position: absolute;
+    top: 2%;
+    right: 9%;
+}
+.item-price.ribbontag {
+    width: 20%;
+}.item-price.ribbontag::before {
+    z-index: 0;
+    left: 2px;
+}

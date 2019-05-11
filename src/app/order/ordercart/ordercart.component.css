@@ -1,0 +1,120 @@
+.addcart {
+  text-align: center;
+  color: var(--logo-brown);
+}
+
+.addcart .addcart-title {
+  color: var(--logo-yellow);
+}
+.cartitems .cartitemstitle {
+  background-color: var(--logo-brown);
+  color: var(--logo-yellow);
+}
+
+.cartitems .cartitemstitle > span {
+  border-right: 3px double var(--logo-yellow);
+  font-weight: bolder;
+}
+
+.cartitems .cartitemstitle > span:nth-child(1) {
+  border-left: 3px double var(--logo-yellow);
+}
+
+.cartitems .cartitemstitle::after,
+.cartitems .cartitemstitle::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  border-bottom: 1px dotted var(--logo-yellow);
+}
+
+.cartitems .cartitemstitle::after {
+  top: -10%;
+  /* left: 15%; */
+}
+
+.cartitems .cartitemstitle::before {
+  bottom: -10%;
+  /* left: 15%; */
+}
+
+.cartitems > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2px;
+}
+
+.cartitems .cartitemslist {
+  display: block;
+  height: 25em;
+  overflow-y: auto;
+}
+.cartitemslist > div {
+  margin: 5px auto;
+  padding: 0;
+  border-left: 1px solid var(--logo-yellow);
+  border-right: 1px solid var(--logo-yellow);
+}
+.cartitemslist > div > span:nth-child(2) {
+  padding: 0;
+}
+.cartitems > div input {
+  border: none;
+  border-radius: 5px;
+  padding: 2px;
+  outline: none;
+  text-align: center;
+}
+
+.cartitems > div input:focus {
+  border: 1px solid var(--logo-yellow);
+  padding: 1px;
+}
+
+.cartitemsorder {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px dotted var(--logo-yellow);
+}
+.cartitemsorder .cartitemstotal {
+  display: flex;
+  justify-content: space-around;
+}
+.cartitems > div input.btn-style {
+  padding: 8px;
+  font-weight: bold;
+  width: 50%;
+}
+.cartitems {
+  position: relative;
+  background: lavender;
+  z-index: 5;
+}
+.carticon {
+  cursor: pointer;
+  z-index: 4;
+  position: fixed;
+  bottom: 10%;
+}
+.carticon[data-count]::after {
+  position: absolute;
+  height: 1.8em;
+  width: 1.8em;
+  border: 1px solid var(--logo-brown);
+  color: var(--logo-yellow);
+  background-color: var(--logo-brown);
+  border-radius: 50%;
+  padding: 2px;
+  top: -0.6em;
+  right: -0.6em;
+  content: attr(data-count);
+  font-size: 1em;
+}
+.fa-shopping-cart {
+  display: block;
+  background: var(--logo-yellow);
+  padding: 0.3em;
+  border-radius: 50%;
+}

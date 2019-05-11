@@ -1,0 +1,19 @@
+<div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 reserveinfo container">
+  <h2 class="reserveinfotitle1">Available Table Arrangements</h2>
+  <div class="tablelocate form-group">
+    <label for="tablelocation" style='color: var(--logo-yellow);display: block;'>Pick One</label>
+    <label><input type="radio" name="tableplace" value="SeaFace" (click)="tableOption($event)">Sea Face</label>
+    <label><input type="radio" name="tableplace" value="RoofTop" (click)="tableOption($event)">Roof Top</label>
+    <label><input type="radio" name="tableplace" value="Lobby" (click)="tableOption($event)">Lobby</label>
+    <label><input type="radio" name="tableplace" value="DanceFace" (click)="tableOption($event)">Dance Face</label>
+  </div>
+  <div #tablelocateoptions ></div>
+  <h2 class="reserveinfotitle2">Fill Your Information</h2>
+  <section class="personaldetail col-md-12 col-xs-12 form-group">
+    <input type="text" placeholder="Your Name" name="reservename" class="form-control col-md-12 col-xs-12" #name>
+    <input type="text" placeholder="Your Email Address" name="reserveaddress" class="form-control col-md-6 col-xs-12" #email>
+    <input type="text" placeholder="Your Phone Number" name="reservenumber" class="form-control col-md-6 col-xs-12" #pnumber>
+    <textarea placeholder="Special Requests if any..." name="reservespecial" class="form-control col-md-12 col-xs-12" rows="2" #special></textarea>
+  </section>
+  <span class="col-md-12"><input value="button" class="btn btn-default btn-style" value="Confirm Reservation" (click)="reserve()"></span> 
+</div>

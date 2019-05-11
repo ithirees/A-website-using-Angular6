@@ -1,0 +1,42 @@
+<div class="container">
+    <div class="col-md-8 carousel">
+      <!-- Carousel Slideshow -->
+      <div id="topCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Carousel Dot Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#topCarousel"  *ngFor="let item of carousel; let i = index;" attr.data-slide-to="{{i}}" [ngClass]="{'active': i == 0}"></li>
+        </ol>
+        <!-- Carousel slide -->
+        <div class="carousel-inner">
+          <div class="item" *ngFor="let item of carousel; let i = index;" [ngClass]="{'active': i == 0}">
+            <img [src]="item.imagePath" alt="cuisine" class="img-responsive">
+          </div>
+        </div>
+        <!-- Carousel Controls -->
+        <a href="#topCarousel" class="left carousel-control" data-slide="prev">
+          <i class="fa fa-angle-left"></i>
+        </a>
+        <a href="#topCarousel" class="right carousel-control" data-slide="next">
+          <i class="fa fa-angle-right"></i>
+          </a>
+      </div>
+    </div>
+    <div class="col-md-4 notice">
+      <section class="notice-wrap">
+        <section class="notice-inner-wrap">
+          <h2 class="notice-title">Opening Hours</h2>
+          <span class="notice-line"></span>
+          <span class="notice-detail">
+            <p class="notice-detail-title">Tuesday to Sunday</p>
+            <p class="notice-detail-time">12:00PM - 2:00PM</p>
+            <p class="notice-detail-time">6:00PM - 10:30PM</p>
+            <p class="notice-detail-close">Monday Closed</p>
+          </span>
+          <span class="notice-line"></span>
+          <span class="notice-phone"><i class="fa fa-phone"></i> +352 28 99 80 40</span>
+        </section>
+      </section>
+    </div>
+</div>
+<cuisine-product></cuisine-product>
+<cuisine-review></cuisine-review>

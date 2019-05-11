@@ -1,0 +1,915 @@
+{
+  "menu": [
+    "Starters",
+    "Soup",
+    "Vegetables",
+    "Chicken",
+    "Lamb",
+    "Beef",
+    "Seafood",
+    "Tandoori",
+    "Special Menu",
+    "Biryani Rice",
+    "Naan",
+    "Special Indian Desserts",
+    "Lassi",
+    "Beer"
+  ],
+  "Starters": [{
+      "name": "CHICKEN DRUM STICK",
+      "desc1": " Poulet aux épices enveloppées dans la farine de lentilles et frits." , "desc2": "Chicken with spices wrapped in lentil flour and deep-fried.",
+      "imgPath": "21146602_1862252427124674_871428879_o.png",
+      "price": "5.2"
+    },
+    {
+      "name": "VEGETABLE SAMOSA",
+      "desc1": " Pâte Triangles farcies aux pommes de terre , les pois, les carottes, les herbes et frits." , "desc2": "Dough Triangles stuffed with potatoes, peas, carrots, herbs and fried.",
+      "imgPath": "21146986_1862251467124770_1762893432_o17.png",
+      "price": "5.2"
+    },
+    {
+      "name": "KEEMA SAMOSA",
+      "desc1": " Pâte Triangles farcies avec de l'agneau haché, les herbes et frits." , "desc2": "Dough Triangles stuffed with minced lamb, herbs and fried.",
+      "imgPath": "21146986_1862251467124770_1762893432_o.png",
+      "price": "5.4"
+    },
+    {
+      "name": "ONION BHAJEE",
+      "desc1": " Emincé l'oignon avec des lentilles de farine et frits." , "desc2": "Sliced onion with lentils flour and fried.",
+      "imgPath": "21198421_1862250453791538_2048260136_o.png",
+      "price": "5.2"
+    },
+    {
+      "name": "VEGETABLE PAKORA",
+      "desc1": " Emincé l'oignon avec des lentilles de farine et frits." , "desc2": "Sliced onion with lentils flour and fried.",
+      "imgPath": "21169426_1862249977124919_309202891_o.png",
+      "price": "5.25"
+    },
+    {
+      "name": "TILA JHINGA",
+      "desc1": " Langoustines trempées dans cari fariné avec des graines de sésame et frits." , "desc2": "Scampis dipped in curried floured with sesame seeds and fried.",
+      "imgPath": "21191079_1862249380458312_846436215_o.png",
+      "price": "8.4"
+    },
+    {
+      "name": "MIRCHI PAKORA",
+      "desc1": " Froid vert farci aux épices paneer avec lentilles farines et frit." , "desc2": "Green chilly stuffed with paneer spices with lentils flours and fried.",
+      "imgPath": "21169159_1862244610458789_114898821_o.png",
+      "price": "5.4"
+    },
+    {
+      "name": "MIX STARTER",
+      "desc1": " Apéritifs mixtes de poulet , les crevettes au sésame et mélanger légumes pakoras frais pour deux personnes." , "desc2": "Mixed appetizers of chicken, prawns with sesame & mix vegetable fresh pakoras for two persons.",
+      "imgPath": "21148474_1862255423791041_771622179_n.jpg",
+      "price": "13.5"
+    },
+    {
+      "name": "CHICKEN MO: MO:",
+      "desc1": " Farcies émincé de poulet avec des oignons, corrianders , épices et cuit àla vapeur." , "desc2": "Stuffed minced of chicken with onions, corianders, spices & steamed.",
+      "imgPath": "21191395_1862243763792207_129618339_o.png",
+      "price": "15"
+    },
+    {
+      "name": "VEGETABLE MO: MO:",
+      "desc1": " Farcies émincé de légumes avec des oignons, corrianders , épices et cuit à la vapeur." , "desc2": "Stuffed minced of vegetable with onions, corianders, spices & steamed.",
+      "imgPath": "21146916_1862244110458839_2029169114_o.png",
+      "price": "13.5"
+    },
+    {
+      "name": "CHICKEN TIKKA SALAD",
+      "desc1": " Combinaison de poulet grillé avec salade de mélange frais avec une sauce spéciale." , "desc2": "Combination of grilled chicken with fresh mix salad with special sauce.",
+      "imgPath": "21169490_1862243293792254_1166294689_o.png",
+      "price": "6"
+    },
+    {
+      "name": "DAHI RAITA",
+      "desc1": " Yogourt avec concombre et tomate fraîche mélangée avec des épices." , "desc2": "Yogurt with cucumber and fresh tomato blended with spices.",
+      "imgPath": "21146449_1862224663794117_1003027163_o.png",
+      "price": "4.6"
+    },
+    {
+      "name": "PANEER PAKORA",
+      "desc1": "Fromage blanc pané à la farine de lentilles et frit." , "desc2": "Cheese breaded with lentil flour and fried.",
+      "imgPath": "paneer-pakora-recipe-14.jpg",
+      "price": "6.95"
+    },
+    {
+      "name": "LAMB SEEKH KEBAB",
+      "desc1": " Saucisses d'agneau haché, fines herbes, et grillé au four d'argile." , "desc2": "Ground lamb sausages, fine herbs, and grilled in a clay oven.",
+      "imgPath": "Mutton-Seekh-Kebab1.jpg",
+      "price": "8"
+    },
+    {
+      "name": "CHICKEN PAKORA",
+      "desc1": " Emincé de poulet au farine de lentilles et frit." , "desc2": "Sliced chicken with flour of lentil and fried.",
+      "imgPath": "download5.jpg",
+      "price": "5.15"
+    },
+    {
+      "name": "FISH PAKORA",
+      "desc1": " Emincé de poissons au farine de lentilles et frit." , "desc2": "Sliced fish with flour of lentil and fried.",
+      "imgPath": "maxresdefault_2.jpg",
+      "price": "5.2"
+    },
+    {
+      "name": "KIDS MENU",
+      "desc1": " Menu pour enfants avec des ailes de poulet korma, frites, riz et dessert." , "desc2": "Children's menu with korma chicken lollipop, french fries, rice and dessert.",
+      "imgPath": "chicken-scallops-white.jpg",
+      "price": "8.95"
+    }
+  ],
+  "Soup": [{
+      "name": "DAAL SOUP",
+      "desc1": " Soupe aux lentilles de mélange préparés dans des styles indiens." , "desc2": "Soup with mix lentils prepared in Indian styles.",
+      "imgPath": "21175052_1862235420459708_161318902_n.png",
+      "price": "5.1"
+    },
+    {
+      "name": "CHEESE SOUP",
+      "desc1": " Soupe au fromage, des tomates fraîches préparées dans les styles de chef." , "desc2": "Soup with cheese, fresh tomatoes prepared in chef styles.",
+      "imgPath": "21147065_1862234690459781_887927093_o.png",
+      "price": "5.2"
+    },
+    {
+      "name": "NEPALI SPECIAL SOUP",
+      "desc1": " Soupe népalais avec Gundruk , les tomates dans les styles népalais." , "desc2": "Nepali soup with gundruk, tomatoes in Nepalese styles.",
+      "imgPath": "21191081_1862234123793171_1810779552_o.png",
+      "price": "12.95"
+    },
+    {
+      "name": "CHICKEN SOUP",
+      "desc1": " Soupe au poulet avec oignons et crème fraiche." , "desc2": "Chicken soup with onions and cream sauce.",
+      "imgPath": "spicy-asian-chicken-soup.jpg",
+      "price": "4.95"
+    },
+    {
+      "name": "VEGETABLE SOUP",
+      "desc1": " Soupe aux légumes avec oignons et crème fraiche." , "desc2": "Vegetable soup with onions and cream sauce.",
+      "imgPath": "BTB_R-71_A.jpg",
+      "price": "4.55"
+    },
+    {
+      "name": "PRAWN SOUP",
+      "desc1": " Soupe de scampis avec oignons et crème fraiche." , "desc2": "Prawn soup with onions and cream sauce.",
+      "imgPath": "tom-yam1.jpg",
+      "price": "6.95"
+    },
+    {
+      "name": "MUSHROOM SOUP",
+      "desc1": " Soupe de champignons avec oignons et crème fraiche." , "desc2": "Mushroom soup with oignons and cream sauce.",
+      "imgPath": "Mushroom-Soup.jpg",
+      "price": "4.55"
+    }
+  ],
+  "Vegetables": [{
+      "name": "ALOO SAAG",
+      "desc1": " Dices de pommes de terre mijotées dans une sauce aux épinards délicieux et tomate fraîche." , "desc2": "Dices of potatoes simmered in a delicious spinach sauce and fresh tomato",
+      "imgPath": "21146682_508896592788749_280812071_o.jpg",
+      "price": "12.95"
+    },
+    {
+      "name": "PANEER SAGWALA",
+      "desc1": " Dices de fromage cottage cuits dans une sauce aux épinards délicieux et tomate fraîche." , "desc2": "Dices of cottage cheese cooked in a delicious spinach sauce and fresh tomato.",
+      "imgPath": "Saag-Paneer-1.jpg",
+      "price": "13.95"
+    },
+    {
+      "name": "SABJI KOFTA",
+      "desc1": " Boules végétales spéciales cuites dans une sauce indienne spéciale." , "desc2": "Special vegetable balls cooked in special Indian sauce.",
+      "imgPath": "21146641_508896599455415_1365261442_o.jpg",
+      "price": "13.9"
+    },
+    {
+      "name": "PANEER MAKHANWALA",
+      "desc1": " Cubes of cottage cheese cooked simmered in a butter and cream." , "desc2": "Cubes de fromage cottage cuit mijotés dans un beurre et la crème.",
+      "imgPath": "21146878_508896582788750_556184697_o.jpg",
+      "price": "13.9"
+    },
+    {
+      "name": "DAAL MAKHANWALA",
+      "desc1": " Lentilles mixtes cuites dans une sauce épaisse de beurre doux et crémeux." , "desc2": "Mixed lentils cooked in thickly mild creamy butter sauce.",
+      "imgPath": "dal_makhani.jpg",
+      "price": "11.8"
+    },
+    {
+      "name": "VEGETABLE DAHIWALA",
+      "desc1": " Plats indiens Sud cuits dans un fromage de lait de coco , le yogourt et cottage." , "desc2": "Special South Indian dishes cooked in a coconut milk, yogurt & cottage cheese.",
+      "imgPath": "veg_dahiwala.jpg",
+      "price": "14.5"
+    },
+    {
+      "name": "DAAL TADKA",
+      "desc1": " Variétés de lentilles cuites dans un style traditionnel népalais à l'ail et le gingembre." , "desc2": "Varieties of lentils cooked in a Nepalese traditional style with garlic & ginger.",
+      "imgPath": "21191465_508896622788746_1685186024_o.jpg",
+      "price": "11.5"
+    },
+    {
+      "name": "Baigon Bhurta",
+      "desc1": " Aubergines grillées cuites avec des épices et des oignons." , "desc2": "Grilled aubergines cooked with spices and onions.",
+      "imgPath": "21191221_508896619455413_365809114_o.jpg",
+      "price": "13.75"
+    },
+    {
+      "name": "Mix Vegetables Curry",
+      "desc1": " Mélanger légumes sautés à l'oignon , la tomate et le poivron." , "desc2": "Mix vegetable sauted with onion, tomato and capsicum.",
+      "imgPath": "21169330_508896629455412_19078638_o.jpg",
+      "price": "13.5"
+    },
+    {
+      "name": "ALOO GOBI MASALA",
+      "desc1": " Pommes de terre et choux-fleurs cuits dans une sauce masala." , "desc2": "Potatoes and cauliflower cooked in a masala sauce.",
+      "imgPath": "maxresdefault-(1).jpg",
+      "price": "13.75"
+    },
+    {
+      "name": "CHANA MASALA",
+      "desc1": " Pois chiches cuits dans une sauce masala." , "desc2": "Chick peas cooked in masala sauce.",
+      "imgPath": "chana-masala.jpg",
+      "price": "12.75"
+    },
+    {
+      "name": "MUTTER PANEER",
+      "desc1": " Fromage frit et petits pois cuits dans une sauce spéciale indienne." , "desc2": "Fried cheese and peas cooked in a special indian sauce.",
+      "imgPath": "matar-paneer-recipe.jpg",
+      "price": "14.5"
+    },
+    {
+      "name": "PANEER TIKKA MASALA",
+      "desc1": " Morceaux de fromage marinés, grillés et cuits dans une sauce masala exotique à l'oignon de tomate et poivron frais." , "desc2": "Pieces of cheese marinated, grilled and cooked in an exotic masala sauce with fresh tomato, onions an.",
+      "imgPath": "Paneer-Tikka-Masala.jpg",
+      "price": "14.65"
+    },
+    {
+      "name": "MUSHROOM KADHAI",
+      "desc1": " Champignons cuisinés dans une sauce aux épices indiennes avec poivrons, oignons et épinard." , "desc2": "Mushrooms cooked in an indian spicy sauce with onion, capsicum and spinach.",
+      "imgPath": "Mushroom-Kadhai.jpg",
+      "price": "14.9"
+    },
+    {
+      "name": "PANEER KADHAI",
+      "desc1": " Cube de fromages cottage cuit dans une sauce indienne aux épices avec oignons, poivrons et épinards." , "desc2": "Cube of cottage cheese cooked in an indian spicy sauce with onions, capsicum and spinach.",
+      "imgPath": "Paneer-Kadhai.jpg",
+      "price": "14.5"
+    },
+    {
+      "name": "MIX VEGETABLE VINDALOO",
+      "desc1": " Mélange de légumes cuit dans une sauce piquante avec pommes de terre, citron et sauce vindaloo." , "desc2": "Mix vegetables cooked spicy sauce with potatoes, lemon and vindaloo sauce.",
+      "imgPath": "Vegetable-Vindaloo.jpg",
+      "price": "14.75"
+    }
+  ],
+  "Chicken": [{
+      "name": "CHICKEN CURRY",
+      "desc1": " Des morceaux de poulet grillé cuit dans une sauce de la sauce au gingembre , l'ail , l'oignon et la tomate fraîche." , "desc2": "Pieces of grilled chicken cooked in a gravy sauce with ginger, garlic, onion and fresh tomato.",
+      "imgPath": "21147058_508921742786234_1141830772_o.jpg",
+      "price": "15.2"
+    },
+    {
+      "name": "CHICKEN TIKKA MASALA",
+      "desc1": " Aromatiques marinés morceaux de poulet grillés préparés dans une sauce masala exotique ajoutant à la tomate fraîche , l'oignon et le poivron." , "desc2": "Aromatic marinated grilled chicken pieces prepared in an exo.",
+      "imgPath": "21191032_508896649455410_1622323832_o.jpg",
+      "price": "15.5"
+    },
+    {
+      "name": "CHICKEN MAKHANI",
+      "desc1": " Poulet Tandoori (désossée ) cuit au beurre doux et crémeux et sauce tomate." , "desc2": "Tandoori chicken (boneless) cooked in mild creamy butter and tomato sauce.",
+      "imgPath": "21124144_508921722786236_1437127288_n.jpg",
+      "price": "15.5"
+    },
+    {
+      "name": "CHICKEN KADHA",
+      "desc1": " Tendres morceaux de poulet préparés avec capsicum , la tomate, l'oignon , le gingembre et l'ail dans une sauce épicée doux." , "desc2": "Tender pieces of chicken prepared with capsicum, tomato, onion, ginger and garlic in mil.",
+      "imgPath": "21175843_508921726119569_1103778925_n.jpg",
+      "price": "15.75"
+    },
+    {
+      "name": "CHICKEN DAHIWALA",
+      "desc1": " Poulet désossé cuit dans le yaourt, les arachides, les noix de cajou et du fromage." , "desc2": "Boneless chicken cooked in yogurt, peanuts, cashewnuts and cheese.",
+      "imgPath": "chicken_dahiwala.jpg",
+      "price": "15.75"
+    },
+    {
+      "name": "CHICKEN TIMURI",
+      "desc1": " Des morceaux de poulet cuits dans une épice Himalyan népalaise spéciale Timuri." , "desc2": "Pieces of chicken cooked in a special Nepalese Himalyan spice Timuri.",
+      "imgPath": "21175398_508921719452903_1270139875_n.jpg",
+      "price": "15.9"
+    },
+    {
+      "name": "CHICKEN MANGO",
+      "desc1": " Des morceaux de poulet cuits dans une sauce à la mangue à saveur indienne." , "desc2": "Pieces of chicken cooked in a mango sauce with Indian flavor.",
+      "imgPath": "21148469_508921699452905_1789025610_n.jpg",
+      "price": "15.75"
+    },
+    {
+      "name": "CHICKEN KORMA",
+      "desc1": " Des morceaux de poulet cuits avec sauce riche de jus de noix de cajou et le lait." , "desc2": "Pieces of chicken cooked with rich gravy sauce of cashew nuts and milk.",
+      "imgPath": "21190982_508896699455405_237159619_o.jpg",
+      "price": "15.75"
+    },
+    {
+      "name": "CHICKEN JALFREZI",
+      "desc1": " Désossée de poulet sautés aux poivrons , les oignons et les tomates." , "desc2": "Boneless of chicken sauted with capsicum, onions and tomatoes.",
+      "imgPath": "chicken_jalferi.jpg",
+      "price": "15.5"
+    },
+    {
+      "name": "CHICKEN SAAG",
+      "desc1": " Désossée de poulet cuit avec des épinards à la sauce masala." , "desc2": "Boneless of chicken cooked with spinach in masala sauce.",
+      "imgPath": "chicken_sag.jpg",
+      "price": "15.5"
+    },
+    {
+      "name": "CHICKEN VINDALOO",
+      "desc1": " Désossée de poulet cuit à la sauce piquante aux pommes de terre et de citron." , "desc2": "Boneless of chicken cooked with spicy sauce with potatoes and lemon.",
+      "imgPath": "21169102_508896719455403_940432690_o.jpg",
+      "price": "15.55"
+    },
+    {
+      "name": "CHICKEN MADRAS CURRY",
+      "desc1": " Morceaux De Poulet Cuits Dans Une Sauce Légèrement Relevée." , "desc2": "Pieces of chicken cooked in sauce slightly raised (South Indian Dish).",
+      "imgPath": "Madras_chickencurry-3.jpg",
+      "price": "15.5"
+    },
+    {
+      "name": "CHEF SPECIAL CHICKEN",
+      "desc1": " Marinés morceaux de poulet grillés préparés dans un arrosoir de bouche, sauce maison exotique légèrement chaude et douce et sautée avec la pomme de terre , le brocoli , le poivron , champignons , pousses de.",
+      "imgPath": "21150990_508921696119572_860737874_n.jpg",
+      "price": "17.8"
+    },
+    {
+      "name": "CHICKEN COCONUT",
+      "desc1": " Morceaux de poulet cuit dans une sauce douce à la noix de coco et crème." , "desc2": "Chicken pieces cooked in a sweet coconut sauce and cream sauce.",
+      "imgPath": "coco-chicken.jpg",
+      "price": "15.5"
+    },
+    {
+      "name": "CHICKEN BHUNA",
+      "desc1": " Poulet désossé de poulet cuit avec des tomates fraiches, cube de poivrons et oignons avec une sauce épicé." , "desc2": "Boneless chicken cooked with fresh tomato, cube of capsicum and onions in a spicy sauce.",
+      "imgPath": "chicken-bhuna-1024x768.jpg",
+      "price": "15.65"
+    }
+  ],
+  "Lamb": [{
+      "name": "LAMB CURRY",
+      "desc1": " Pièces d'agneau cuits dans une sauce au curry de la sauce au gingembre, l'ail , l'oignon et les tomates fraîches." , "desc2": "Pieces of lamb cooked in a gravy curry sauce with ginger, garlic, onion and fresh tomatoes.",
+      "imgPath": "21146785_508896746122067_2136151103_o.jpg",
+      "price": "16.5"
+    },
+    {
+      "name": "LAMB SAGWALA",
+      "desc1": " Des morceaux de l'agneau cuit avec des épinards frais dans un gingembre , l'ail et la tomate fraîche." , "desc2": "Pieces of lamb cooked with fresh spinach in a ginger, garlic and fresh tomato.",
+      "imgPath": "21151134_508921246119617_1629306634_n-(1).jpg",
+      "price": "16.95"
+    },
+    {
+      "name": "LAMB TIKKA MASALA",
+      "desc1": " Marinés morceaux d'agneau grillées cuites dans une sauce exotique à la tomate fraîche, l'oignon , le gingembre , l'ail et décorées avec capsicum oignon et la tomate." , "desc2": "Marinated grilled lamb pieces cooked.",
+      "imgPath": "21150718_508921252786283_1765257552_n.jpg",
+      "price": "17.2"
+    },
+    {
+      "name": "LAMB KADHA",
+      "desc1": " Agneau mariné dans le yogourt cuit dans une sauce à l' épice indienne avec poivrons et champignons." , "desc2": "Lamb marinated in yogurt cooked in an Indian spice sauce with capsicums and mushroom.",
+      "imgPath": "kadai-lamb.jpg",
+      "price": "16.5"
+    },
+    {
+      "name": "CHEF SPECIAL LAMB",
+      "desc1": " Marinés morceaux d'agneau grillées préparées dans une bouche sauce maison exotique légèrement chaude et douce et sauté aux pommes de terre, brocolis , capsicum, pousses de bambou, champignons oignon fra.",
+      "imgPath": "21208424_508921692786239_807972433_n.jpg",
+      "price": "17.8"
+    },
+    {
+      "name": "LAMB NARIYAL",
+      "desc1": " Tendres morceaux d'agneau cuits dans une sauce crémeuse très doux avec du lait de coco." , "desc2": "Tender pieces of lamb cooked in a very mild creamy sauce with coconut milk.",
+      "imgPath": "21148576_508921716119570_1211472566_n.jpg",
+      "price": "16.2"
+    },
+    {
+      "name": "LAMB VINDALOO",
+      "desc1": " Morceaux d'agneau cuits dans la sauce vindaloo à la menthe fraîche et de pomme de terre." , "desc2": "Lamb pieces cooked in vindaloo sauce with fresh mint and potato.",
+      "imgPath": "21124237_508921219452953_876977349_n.jpg",
+      "price": "16.95"
+    },
+    {
+      "name": "LAMB MADRAS CURRY",
+      "desc1": " Morceaux D’agneau Cuits Dans Une Sauce Masala Légèrement Relevée." , "desc2": "Lamb pieces cooked In Sauce Masala slightly raised (South Indian Dish).",
+      "imgPath": "lamb_madras.jpg",
+      "price": "16.95"
+    },
+    {
+      "name": "LAMB BHUNA",
+      "desc1": " Agneau mariné et cuit avec des tomates fraiches, cube de poivrons, oignons avec sauce épicé." , "desc2": "Lamb marinated and cooked with fresh tomato, cube of capsicum and onions with spicy sauce.",
+      "imgPath": "Lamb-Bhuna.jpg",
+      "price": "16.75"
+    },
+    {
+      "name": "LAMB JALFREZI",
+      "desc1": " Agneau sautés aux poivrons, oignons et tomates." , "desc2": "Lamb sauted with capsicum, onions and tomatoes.",
+      "imgPath": "Lamb-Jalfrezi.jpg",
+      "price": "17.75"
+    },
+    {
+      "name": "LAMB MANGO",
+      "desc1": " Morceaux d'agneau cuit dans une sauce à la mangue aux saveurs indiennes." , "desc2": "Pieces of lamb cooked in a mango sauce with indian flavour.",
+      "imgPath": "Lamb-Mango.jpg",
+      "price": "16.65"
+    },
+    {
+      "name": "LAMB DAHIWALA",
+      "desc1": " Agneau cuit dans du yaourt, arachides, noix de cajou et fromage." , "desc2": "Agneau cooked in yogurt, peanuts, cashew nuts and cheese.",
+      "imgPath": "Suriya-Dusseldorf-Curry-Heute-13-300x225.jpg",
+      "price": "16.95"
+    },
+    {
+      "name": "LAMB GULKHAR",
+      "desc1": " Agneau mariné et cuit à la sauce aux épices indiennes avec oignons, poivrons et champignons." , "desc2": "Lamb marinated and cooked with indian spicy sauce, onions, capsicum and mushroom.",
+      "imgPath": "Kadai-Gosht1-1024x683.jpg",
+      "price": "17.75"
+    },
+    {
+      "name": "LAMB TIKKA VINDALOO",
+      "desc1": " Morceaux d'agneau grillés cuits dans une sauce vindaloo, menthe fraiche et pommes de terre." , "desc2": "Lamb pieces grilled and cooked in a vindaloo sauce with fresh mint and potatoes.",
+      "imgPath": "Lamb-Tikka-Vindaloo.jpg",
+      "price": "17.95"
+    }
+  ],
+  "Beef": [{
+      "name": "BEEF CURRY",
+      "desc1": " Des morceaux de boeuf cuit dans une sauce au curry de la sauce au gingembre , l'ail , l'oignon et les tomates fraîches." , "desc2": "Pieces of beef cooked in a gravy curry sauce with ginger, garlic, onion and fresh tomatoes.",
+      "imgPath": "Beef-Curry-3.jpg",
+      "price": "16.9"
+    },
+    {
+      "name": "BEEF SAGWALA",
+      "desc1": " Des morceaux de boeuf cuit avec des épinards frais dans un gingembre , l'ail et la tomate fraîche." , "desc2": "Pieces of beef cooked with fresh spinach in a ginger, garlic and fresh tomato.",
+      "imgPath": "beefsaag5.jpg",
+      "price": "16.5"
+    },
+    {
+      "name": "BEEF TIKKA MASALA",
+      "desc1": " Marinés morceaux de boeuf grillés cuits dans une sauce exotique à la tomate fraîche, l'oignon , le gingembre , l'ail et décorées avec capsicum oignon et la tomate." , "desc2": "Marinated grilled beef pieces cooked in an.",
+      "imgPath": "21148323_508928449452230_886210019_n.jpg",
+      "price": "17.2"
+    },
+    {
+      "name": "BEEF VINDALOO",
+      "desc1": " Morceaux de boeuf cuit à la sauce vindaloo à la menthe fraîche et de pomme de terre." , "desc2": "Beef pieces cooked in vindaloo sauce with fresh mint and potato.",
+      "imgPath": "beef-vindaloo-50211024.jpg",
+      "price": "16.5"
+    },
+    {
+      "name": "CHEF SPECIAL BEEF",
+      "desc1": " Marinés morceaux de boeuf grillés préparés dans une bouche sauce maison exotique légèrement chaude et douce et sauté aux pommes de terre, brocolis capsicum , pousses de bambou, champignons oignon frais et t.",
+      "imgPath": "21148416_508928442785564_1936427585_n.jpg",
+      "price": "17.8"
+    },
+    {
+      "name": "BEEF BHUNA",
+      "desc1": " Morceaux de boeuf cuits avec tomates fraiches, oignons et cubes de poivrons." , "desc2": "Beef pieces cooked with fresh tomato, oignons and slices of capsicum.",
+      "imgPath": "Bhuna-Gosht-1030x669.jpg",
+      "price": "16.95"
+    },
+    {
+      "name": "BEEF MANGO",
+      "desc1": " Morceaux de boeuf cuits dans une sauce à la mangue aux saveurs indiennes." , "desc2": "Pieces of beef cooked in a mango sauce with indian flavour.",
+      "imgPath": "Beef-Mango.jpg",
+      "price": "16.75"
+    },
+    {
+      "name": "BEEF DAHIWALA",
+      "desc1": " Boeuf cuit dans du yaourt, arachides, noix de cajou et fromage." , "desc2": "Beef cooked in yogurt, peanuts, cashew nuts and cheese.",
+      "imgPath": "Beef-Dahi.jpg",
+      "price": "16.75"
+    },
+    {
+      "name": "BEEF MADRAS CURRY",
+      "desc1": " Morceaux de boeuf cuits dans une sauce masala légèrement relevée." , "desc2": "Beef pieces cooked in a sauce masala lightly raised.",
+      "imgPath": "Beef-Madras.jpg",
+      "price": "16.65"
+    },
+    {
+      "name": "BEEF COCONUT",
+      "desc1": " Morceaux de boeuf cuit dans une sauce douce à la noix de coco et crème." , "desc2": "Beef pieces cooked in a sweet coconut and cream sauce.",
+      "imgPath": "Beef-coco.jpg",
+      "price": "16.6"
+    },
+    {
+      "name": "BEEF TIKKA VINDALOO",
+      "desc1": " Morceaux de boeuf marinés et grillés, puis cuit dans une sauce vindaloo avec des pommes de terre.", "desc2":"Pieces of beef marinated and grilled, and then cooked in a vindaloo sauce with potatoes.",
+      "imgPath": "Beef-TikkaVindaloo.jpg",
+      "price": "17.5"
+    }
+  ],
+  "Seafood": [{
+      "name": "PRAWN CURRY",
+      "desc1": " Prawn cuit à la sauce tomate , les oignons , l'ail et sauce au curry." , "desc2": "Prawn cooked in tomato sauce, onions, garlic and curry sauce.",
+      "imgPath": "21146604_508896769455398_190627886_o.jpg",
+      "price": "20.5"
+    },
+    {
+      "name": "TANDOORI PRAWN MASALA",
+      "desc1": " Crevettes grillées cuit dans une sauce bien assaisonné de tomates et dices capsicum et l'oignon." , "desc2": "Grilled prawn cooked in a well flavored sauce of tomatoes & dices capsicum & onion.",
+      "imgPath": "21169400_508896776122064_364901601_o.jpg",
+      "price": "20.75"
+    },
+    {
+      "name": "CHEF SPECIAL PRAWN",
+      "desc1": " Langoustine grillée préparée dans une sauce maison lightly chaude et douce et Poêlée de pommes de terre , brocolis , capsicum , pousses de bambou , champignons frais , oignons, petits pois et tomates fraîches.",
+      "imgPath": "21146802_508928456118896_1558455994_o.jpg",
+      "price": "22.5"
+    },
+    {
+      "name": "TANDOORI FISH MASALA",
+      "desc1": " Poissons grillés cuits dans la sauce et de la saveur des tomates et poivrons." , "desc2": "Grilled fish cooked in well flavor sauce of tomatoes and capsicum.",
+      "imgPath": "21146774_508896799455395_947453980_o.jpg",
+      "price": "16.5"
+    },
+    {
+      "name": "FISH MALABARY",
+      "desc1": " Poissons grillés cuits et servis dans la noix de coco et la sauce au curry Madras." , "desc2": "Grilled fish cooked and served in the coconut and Madras curry sauce.",
+      "imgPath": "malabari-fish-curry.jpg",
+      "price": "16.75"
+    },
+    {
+      "name": "PRAWN KADHAI",
+      "desc1": " Scampis préparésavec du piment de capsicum, tomates, oignons, gingembre, épinards et ail dans une sauce légèrement épicée." , "desc2": "Prawns prepared with capsicum chilli, tomatoes, onions, ginger, spinach.",
+      "imgPath": "Prawn-Kadhai.jpg",
+      "price": "20.75"
+    },
+    {
+      "name": "PRAWN COCONUT",
+      "desc1": " Scampis cuits dans une sauce douce à la noix de coco et crème." , "desc2": "Prawns cooked in a sweet coconut and cream sauce.",
+      "imgPath": "PRAWN-COCONUT.jpg",
+      "price": "20.5"
+    },
+    {
+      "name": "PRAWN DAHIWALA",
+      "desc1": " Scampis cuits dans du yaourt, arachides, noix de cajou et fromage." , "desc2": "Prawns cooked in yogurt, peanuts, cashew nuts and cheese.",
+      "imgPath": "PRAWN-DAHIWALA.jpg",
+      "price": "20.75"
+    },
+    {
+      "name": "PRAWN MADRAS CURRY",
+      "desc1": " Scampis cuits dans une sauce masala légèrement relevée." , "desc2": "Prawns cooked in a masala sauce lightly raised.",
+      "imgPath": "PRAWN-MADRAS-CURRY.jpg",
+      "price": "20.7"
+    },
+    {
+      "name": "PRAWN TIKKA VINDALOO",
+      "desc1": " Scampis grillés cuits avec sauce vindaloo, menthe fraiche et pommes de terre." , "desc2": "Grilled prawns cooked with vindaloo sauce, fresh mint and potatoes.",
+      "imgPath": "PRAWN-TIKKA-VINDALOO.jpg",
+      "price": "20.85"
+    },
+    {
+      "name": "FISH TIKKA VINDALOO",
+      "desc1": " Poisson grillé cuit avec sauce vindaloo, menthe fraiche et pommes de terre." , "desc2": "Grilled fish cooked with vindaloo sauce, fresh mint and potatoes.",
+      "imgPath": "FISH-TIKKA-VINDALOO.jpg",
+      "price": "16.95"
+    }
+  ],
+  "Tandoori": [{
+      "name": "CHICKEN TIKKA",
+      "desc1": " Les morceaux de poulet mariné aux épices tandoori , yaourt, gingembre frais et l'ail , grillés dans le four d'argile." , "desc2": "Chicken pieces marinated in tandoori spices, yogurt, fresh ginger and garlic, grilled in the clay oven.",
+      "imgPath": "21171185_508896819455393_1170790406_o.jpg",
+      "price": "16.2"
+    },
+    {
+      "name": "TANDOORI CHICKEN",
+      "desc1": " Tandoori de poulet mariné aux épices tandoori , yaourt , gingembre frais et l'ail grillé au four d'argile." , "desc2": "Chicken tandoori marinated in tandoori spices, yogurt, fresh ginger and garlic grilled in the clay oven.",
+      "imgPath": "21146888_508896832788725_51530457_o.jpg",
+      "price": "15.2"
+    },
+    {
+      "name": "TANDOORI PRAWN",
+      "desc1": " Gambas marinées au masala tandoori spéciale avec du yaourt et l'ail gingembre pâte , grillé au four d'argile." , "desc2": " King prawns marinated in special tandoori masala with yogurt & garlic ginger paste, grilled in the clay o.",
+      "imgPath": "21222351_508896846122057_1679857190_o.jpg",
+      "price": "21"
+    },
+    {
+      "name": "CHICKEN MALAI KEBAB",
+      "desc1": " Poulet désossé mariné dans le yogourt, les noix de cajou , pistas et fromage grillé au four d'argile." , "desc2": "Boneless chicken marinated in yogurt, cashewnuts, pistas and cheese grilled in the clay oven.",
+      "imgPath": "21191050_508896879455387_31563168_o-(1).jpg",
+      "price": "16.2"
+    },
+    {
+      "name": "CHICKEN HARIYALI KEBAB",
+      "desc1": " Poulet désossé mariné dans le yogourt , menthe fraîche , pistas et épices grillées au four d'argile." , "desc2": "Boneless chicken marinated in yogurt, fresh mint, pistas and spices grilled in the clay oven.",
+      "imgPath": "21147155_508896882788720_1373554485_o.jpg",
+      "price": "16.25"
+    },
+    {
+      "name": "BADAMI KEBAB",
+      "desc1": " Pièces d'agneau marinés dans du yaourt , de la cardamome , pista et de miel grillé au four d'argile." , "desc2": "Pieces of lamb marinated in yogurt, cardamom, pista and honey grilled in clay oven.",
+      "imgPath": "21191325_508932496118492_1074339967_o.jpg",
+      "price": "16.75"
+    },
+    {
+      "name": "ADRAKWALI KEBAB",
+      "desc1": " Pièces d'agneau marinées dans le yogourt , saveur de gingembre et timur , grillé au four d'argile." , "desc2": "Pieces of lamb marinated in yogurt, ginger flavour and timur, grilled in clay oven.",
+      "imgPath": "21146906_508896899455385_388658662_o.jpg",
+      "price": "16.8"
+    },
+    {
+      "name": "LAMB CHOPS",
+      "desc1": " Côtelettes d'agneau marinées à l'ail , le gingembre , le yaourt de masala et timur grillé au four d'argile." , "desc2": "Lamb chops marinated in garlic, ginger, yogurt from masala and timur grilled in clay oven.",
+      "imgPath": "21147030_508896912788717_1641711829_o-(1).jpg",
+      "price": "20.9"
+    },
+    {
+      "name": "LAMB HARIYALI KEBAB",
+      "desc1": " Pièces d'agneau marinées dans le yogourt , menthe fraîche , pista et grillés au four d'argile." , "desc2": "Pieces of lamb marinated in yogurt, fresh mint, pista and grilled in clay oven.",
+      "imgPath": "21146769_508896926122049_745612366_o.jpg",
+      "price": "16.95"
+    },
+    {
+      "name": "SPECIAL MIX GRILL",
+      "desc1": " Poulet désossé mariné dans le yogourt, les noix de cajou , pistas et fromage grillé au four d'argile." , "desc2": "Boneless chicken marinated in yogurt, cashewnuts, pistas and cheese grilled in the clay oven.",
+      "imgPath": "21147003_508892266122515_118282092_o.jpg",
+      "price": "21.15"
+    },
+    {
+      "name": "SEAFOOD MIX GRILL",
+      "desc1": " Assortiment de fruits de mer grillés.Different seafood grilled.",
+      "desc2": " Assortiment de fruits de mer grillés.Different seafood grilled.",
+      "imgPath": "SEAFOOD-MIX-GRILL.jpg",
+      "price": "22.15"
+    },
+    {
+      "name": "LAMB TIKKA",
+      "desc1": " Morceaux d'agneau marinés aux épices tandoori, yaourt, gingembre frais, ail et grillés au four d'argile." , "desc2": "Lamb pieces marinated in tandoori masala, yogurt, fresh ginger and garlic and grilled in a clay oven.",
+      "imgPath": "Lamb-Tikka.jpg",
+      "price": "17.75"
+    },
+    {
+      "name": "FISH TIKKA",
+      "desc1": " Filet de poisson mariné aux épices tandoori, yaourt, gingembre frais, ail et grillés au four d'argile." , "desc2": "Fish filet marinated in tandoori masala, yogurt, fresh ginger and garlic and grilled in a clay oven.",
+      "imgPath": "fish-tikka.jpg",
+      "price": "17.85"
+    },
+    {
+      "name": "MUSHROOM TIKKA",
+      "desc1": " Champignons marinés aux épices tandoori, yaourt, gingembre frais, ail et grillés au four d'argile." , "desc2": "Mushrooms marinated in tandoori masala, yogurt, fresh ginger and garlic and grilled in a clay oven.",
+      "imgPath": "Mushroom-Tikka.jpg",
+      "price": "16.95"
+    },
+    {
+      "name": "FULL TANDOORI CHICKEN",
+      "desc1": " Poulet complet mariné aux épices tandoori, yaourt, gingembre frais, ail et grillés au four d'argile." , "desc2": "Full chicken marinated in tandoori masala, yogurt, fresh ginger and garlic and grilled in a clay oven.",
+      "imgPath": "Full-Tandoori-Chicken.png",
+      "price": "22.95"
+    },
+    {
+      "name": "TANDOORI GOLDEN POMFRET",
+      "desc1": " Pomfret doré mariné aux épices tandoori, yaourt, gingembre frais, ail et grillés au four d'argile." , "desc2": "Golden pomfret marinated in tandoori masala, yogurt, fresh ginger and garlic and grilled in a clay oven.",
+      "imgPath": "Tandoori-Golden-POMFRET.png",
+      "price": "15.5"
+    }
+  ],
+  "Special Menu": [{
+      "name": "CHICKEN CHILLI",
+      "desc1": " Poulet désossé préparé avec de l'oignon frais, piment, poivron et tomate fraîche." , "desc2": "Boneless chicken prepared with fresh onion, chilli, capsicum and fresh tomato.",
+      "imgPath": "21148242_508928422785566_387806409_n.jpg",
+      "price": "15.8"
+    },
+    {
+      "name": "LAMB CHILLI",
+      "desc1": " Désossé agneau préparé avec de l'oignon frais, piment , poivron et tomate fraîche." , "desc2": "Boneless lamb prepared with fresh onion, chilli, capsicum and fresh tomato.",
+      "imgPath": "21148270_508928406118901_830945453_n.jpg",
+      "price": "16.8"
+    },
+    {
+      "name": "BEEF CHILLI",
+      "desc1": " Désossé agneau préparé avec de l'oignon frais, piment , poivron et tomate fraîche." , "desc2": "Boneless lamb prepared with fresh onion, chilli, capsicum and fresh tomato.",
+      "imgPath": "CHILLI.png",
+      "price": "16.5"
+    },
+    {
+      "name": "PRAWN CHILLI",
+      "desc1": " Roi crevettes préparé avec de l'oignon frais, piment , poivron et tomate fraîche." , "desc2": "King prawn prepared with fresh onion, chilli, capsicum and fresh tomato.",
+      "imgPath": "prawn_chilli.png",
+      "price": "19.2"
+    },
+    {
+      "name": "FISH CHILL",
+      "desc1": " Poisson préparé avec de l'oignon frais, piment , poivron et tomate fraîche." , "desc2": "Fish prepared with fresh onion, chilli, capsicum and fresh tomato.",
+      "imgPath": "fish.png",
+      "price": "16.2"
+    },
+    {
+      "name": "LAMB SEKUWA",
+      "desc1": " Désossé agneau cuit dans un style typiquement népalais Chef." , "desc2": "Boneless lamb cooked in a typical Nepali Chef style.",
+      "imgPath": "LAMB_SEKUWA.png",
+      "price": "19"
+    },
+    {
+      "name": "CHICKEN BHUTANESE CHEESE",
+      "desc1": " Poulet désossé cuit avec du fromage sauce bhoutanais." , "desc2": "Boneless chicken cooked with Bhutanese sauce cheese.",
+      "imgPath": "21169463_508896696122072_941948401_o.jpg",
+      "price": "16.2"
+    },
+    {
+      "name": "BEEF BHUTANESE SAUCE",
+      "desc1": " Désossée de boeuf cuit à la sauce bhoutanais." , "desc2": "Boneless beef cooked with Bhutanese sauce.",
+      "imgPath": "21175516_508921209452954_376135530_n.jpg",
+      "price": "16.2"
+    },
+    {
+      "name": "CHILLI BHUTANESE SAUCE",
+      "desc1": " Legumes frais cuits à la sauce bhoutanais." , "desc2": "Fresh vegetable cooked with Bhutanese sauce.",
+      "imgPath": "21124121_508921212786287_545706897_n.jpg",
+      "price": "14.5"
+    }
+  ],
+  "Biryani Rice": [{
+      "name": "LAMB BIRYANI",
+      "desc1": " Riz Basmati cuit avec des morceaux d'agneau dans le yogourt et la sauce biryani." , "desc2": "Basmati rice cooked with lamb pieces in yogurt and biryani sauce.",
+      "imgPath": "21146646_1862253523791231_1647457881_o9.png",
+      "price": "15.1"
+    },
+    {
+      "name": "CHICKEN BIRYANI",
+      "desc1": " Les morceaux de poulet préparés dans une sauce biryani combinée avec aromatique du riz Basmati pilao." , "desc2": "Chicken pieces prepared in a biryani sauce combined with aromatic Basmati pilao rice.",
+      "imgPath": "21146646_1862253523791231_1647457881_o7.png",
+      "price": "14.9"
+    },
+    {
+      "name": "VEGETABLE BIRYANI",
+      "desc1": " Légume vert frais cuit en sauce Biryani et aromatique du riz Basmati pilao." , "desc2": "Green fresh vegetable cooked in Biryani sauce and aromatic Basmati pilao rice.",
+      "imgPath": "21146646_1862253523791231_1647457881_o11.png",
+      "price": "14.8"
+    },
+    {
+      "name": "CHEF SPECIAL BIRYANI",
+      "desc1": " Riz Basmati avec de l'agneau , crevettes , poulet, légumes frais de mélange dans le yogourt et la sauce Biryani." , "desc2": " Basmati rice with lamb, prawn, chicken, fresh mix vegetable in yogurt and Biryani sauce.",
+      "imgPath": "21146646_1862253523791231_1647457881_o.png",
+      "price": "16.5"
+    },
+    {
+      "name": "VEGETABLE FRY RICE",
+      "desc1": " Mélanger légumes avec du riz à frire." , "desc2": "Mix vegetable with fry rice.",
+      "imgPath": "21146728_1862256267124290_126487946_o12.png",
+      "price": "7.95"
+    },
+    {
+      "name": "CHICKEN FRY RICE",
+      "desc1": " Poulet avec du riz à frire." , "desc2": "Chicken with fry rice.",
+      "imgPath": "21146728_1862256267124290_126487946_o.png",
+      "price": "8.95"
+    }
+  ],
+  "Naan": [{
+      "name": "PLAIN_NAAN",
+      "desc1": " Pain fine farine cuite au four d'argile." , "desc2": "Fine flour bread baked in clay oven.",
+      "imgPath": "21169028_1862308130452437_395963718_o.png",
+      "price": "3.15"
+    },
+    {
+      "name": "BUTTER NAAN",
+      "desc1": " Levain bien du pain de farine avec le beurre végétal et fraîchement cuit dans le four d'argile." , "desc2": "Leavened fine flour bread with plant butter and freshly baked in the clay oven.",
+      "imgPath": "21148459_1862306967119220_1940897065_n.png",
+      "price": "3.25"
+    },
+    {
+      "name": "GARLIC NAAN",
+      "desc1": " Ail frais haché finement garni et fraîchement cuit au four d'argile." , "desc2": "Finely chopped fresh garlic topped and freshly baked in the clay oven.",
+      "imgPath": "21148591_1862306577119259_1738298321_n.png",
+      "price": "3.75"
+    },
+    {
+      "name": "CHEESE KULCHHA",
+      "desc1": " Pain de fine farine levain farcie fait maison avec du fromage cottage et fraîchement cuit au four d'argile." , "desc2": "Leavened fine flour bread stuffed with home made cottage cheese and freshly baked in the clay oven.",
+      "imgPath": "21146768_1862305913785992_614701485_o19.png",
+      "price": "3.95"
+    },
+    {
+      "name": "PESHWARI NAAN",
+      "desc1": " Beaux raisins farine de breadwith levain, purée de fromage et de noix fraîchement cuits au four d'argile." , "desc2": "Leavened fine flour breadwith raisins, mashed cheesy and nuts freshly baked in the clay oven.",
+      "imgPath": "21146768_1862305913785992_614701485_o15.png",
+      "price": "5.2"
+    },
+    {
+      "name": "CHILLI NAAN",
+      "desc1": " Pain au levain de fine farine avec du piment vert fraîchement cuit dans le four d'argile." , "desc2": "Leavened fine flour bread with green chilli freshly baked in the clay oven.",
+      "imgPath": "21124216_508921216119620_2127403644_n.jpg",
+      "price": "3.75"
+    },
+    {
+      "name": "KEEMA NAAN",
+      "desc1": " Pain de fine farine levain farcie avec de la viande d'agneau et fraîchement cuit au four d'argile." , "desc2": "Leavened fine flour bread stuffed with lamb meat and freshly baked in the clay oven.",
+      "imgPath": "21169340_1862305590452691_1818644809_o.png",
+      "price": "5.2"
+    },
+    {
+      "name": "TANDOORI ROTI",
+      "desc1": " Pain indien fabriqué à partir de farine de blé fraîchement cuit dans le four d'argile." , "desc2": "Indian bread made from wheat flour freshly baked in the clay oven.",
+      "imgPath": "21170765_1862307453785838_445051235_o.png",
+      "price": "8"
+    },
+    {
+      "name": "TAREKO BREAD NEPALI",
+      "desc1": " Pain fine farine frite." , "desc2": "Fine flour bread fried.",
+      "imgPath": "21146654_1862305043786079_298922602_o.png",
+      "price": "3.5"
+    },
+    {
+      "name": "SPECIAL NAAN",
+      "desc1": " Pain indien aux noix de cajou / douleur aux indien noix de cajou." , "desc2": "Indian bread with cashew nuts / pain indien aux noix de cajou.",
+      "imgPath": "21148511_1862316740451576_113426926_n.png",
+      "price": "5.2"
+    }
+  ],
+  "Special Indian Desserts": [{
+      "name": "GULAB JAMUN",
+      "desc1": " Gulab Jamun est un solide à base de lait sucré, populaire dans les pays d'Asie du Sud." , "desc2": "Gulab Jamun is a milk solids based sweet, popular in South Asian countries.",
+      "imgPath": "21170957_1862300093786574_1751145025_o.png",
+      "price": "4.2"
+    },
+    {
+      "name": "LADDU",
+      "desc1": " Il est des bonbons populaires dans les pays d'Asie du Sud en forme de boule qui est fait de la farine , la pâte hachée et le sucre." , "desc2": "It is ball-shaped sweets popular in South Asian Countries which is made of flour, minced dough and sugar.",
+      "imgPath": "0000054_laddu_550.jpeg",
+      "price": "4.5"
+    },
+    {
+      "name": "MANGO PUDDING",
+      "desc1": " Un dessert léger à base de pulpe de mangue , noix de coco hachée et crème habituellement servi froid." , "desc2": "A light dessert made with mango pulp, minced coconut and cream.",
+      "imgPath": "21146935_1862301263786457_600660516_o.png",
+      "price": "5.15"
+    },
+    {
+      "name": "Coco Givré",
+      "desc1": " Crème glacée à la noix de coco." , "desc2": "Ice cream with coconut.",
+      "imgPath": "Coco-Givré.jpg",
+      "price": "5.5"
+    },
+    {
+      "name": "ORANGE GIVRE",
+      "desc1": " Crème glacée au orange." , "desc2": "Orange ice cream.",
+      "imgPath": "ORANGE-GIVRE.jpg",
+      "price": "5.5"
+    },
+    {
+      "name": "CITRON GIVRE",
+      "desc1": " Crème glacée au citron." , "desc2": "Lemon ice cream.",
+      "imgPath": "CITRON-GIVRE.jpg",
+      "price": "5.5"
+    }
+  ],
+  "Lassi": [{
+      "name": "MANGO LASSI",
+      "desc1": " Mango Lassi est un délicieux mélange de mangues et de yogourt avec une touche de cardamome." , "desc2": "Mango Lassi is a delicious blend of mangoes and yogurt with a touch of cardamom.",
+      "imgPath": "Lassi14.jpg",
+      "price": "3.1"
+    },
+    {
+      "name": "Plain Lassi",
+      "desc1": " Boisson à la base de yaourt, de l'eau et d'épices." , "desc2": "Drink containing yogurt, water and spices.",
+      "imgPath": "Plain-Lassi.jpg",
+      "price": "2.5"
+    },
+    {
+      "name": "SWEET LASSI",
+      "desc1": " Boisson à la base de yaourt, de l'eau, des épices et du sucre." , "desc2": "Drink containing yogurt, water, spices and sugar.",
+      "imgPath": "Plain-Lassi9.jpg",
+      "price": "2.8"
+    },
+    {
+      "name": "SALTED LASSI",
+      "desc1": " Boisson à la base de yaourt, de l'eau, des épices et du sel." , "desc2": "Drink containing yogurt, water, spices and salt.",
+      "imgPath": "Plain-Lassi7.jpg",
+      "price": "2.8"
+    },
+    {
+      "name": "COCO LASSI",
+      "desc1": " Boisson à la base de yaourt, de l'eau, des épices et du poudre de coco." , "desc2": "Drink containing yogurt, water, spices and coconut powder.",
+      "imgPath": "Plain-Lassi13.jpg",
+      "price": "2.8"
+    }
+  ],
+  "Beer": [{
+      "name": "COBRA BEER 66CL",
+      "desc1": " Bière indienne cobra en format 66cl." , "desc2": "Indian cobra beer in size of 66cl.",
+      "imgPath": "COBRA-BEER16.jpg",
+      "price": "6.2"
+    },
+    {
+      "name": "COBRA BEER 33CL",
+      "desc1": " Bière indienne cobra en format 33cl." , "desc2": "Indian cobra beer in size of 33cl.",
+      "imgPath": "small-cobra.jpg",
+      "price": "3.2"
+    },
+    {
+      "name": "KHUKURI BEER 66CL",
+      "desc1": " Bière népalaise khukurien format 66cl." , "desc2": "Nepalese khukuri beer in size of 66cl.",
+      "imgPath": "Khukri-66cl.jpg",
+      "price": "6.2"
+    },
+    {
+      "name": "KHUKURI BEER 33CL",
+      "desc1": " Bière népalaise khukuri en format 33cl." , "desc2": "Nepalese khukuri beer in size of 33cl.",
+      "imgPath": "khukuri-33cl.jpg",
+      "price": "3.2"
+    }
+  ]
+}

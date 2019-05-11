@@ -1,0 +1,17 @@
+<section class="col-md-12 container-fluid" *ngFor="let item1 of TITLE; let i = index">
+  <span class="menutitle" [ngClass]=" i==0? 'initial':'collapsed'" data-toggle="collapse" attr.data-target="#order{{i}}" [attr.aria-expanded]="i == 0? true:false">
+    <i class="fa" [ngClass]=" i==0? 'fa-angle-down':'fa-angle-left'"></i>
+    <h2>{{ item1 }}</h2>
+    <i class="fa" [ngClass]=" i==0? 'fa-angle-down':'fa-angle-right'"></i>
+  </span>
+  <div class="row collapse menutitledetail" [ngClass]="{'in': i == 0}" id="order{{i}}" [attr.aria-expanded]="i == 0? true:false">
+    <div class="col-md-4 col-sm-6 col-xs-12 menutitleitem" *ngFor="let item2 of MENU[item1]">
+      <img src="assets/menuimg/{{item2.imgPath}}" alt="" class="menutitleitemimage img-responsive">
+      <span class="menutitleitemdetail">
+        <span class="itemprice ribbontag" (click)="addToCart($event)"><i class="fa fa-shopping-cart" style="pointer-events:none"></i>
+          € {{ item2.price }}</span>
+        <span class="itemname" [attr.data-popup]="item2.desc2? item2.desc2 : item2.desc1">{{ item2.name }}</span>
+      </span>
+    </div>
+  </div>
+</section>

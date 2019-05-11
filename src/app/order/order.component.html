@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 menutitle">
+      <section class="menu-wrap">
+        <section class="menu-inner-wrap">
+          <span class="menutitlename">Make An Order</span>
+        </section>
+      </section>
+    </div>
+    <div>
+    </div>
+    <div class="col-md-12 menucarousel">
+      <div class="menucarousel-seeall">
+        <span style="cursor:pointer" (click)="scrollViewOrder();">See All Menu</span>
+      </div>
+      <div class="slick-slider" *ngIf="SPECIAL" style="cursor:pointer;">
+        <div *ngFor="let item of SPECIAL;" class="slickitems" style="outline:none;">
+          <img src="assets/menuimg/{{ item.imgPath }}" alt="cuisine" class="img-responsive item-img">
+          <span class="item-price ribbontag" (click)="addToCart($event)"><i class="fa fa-shopping-cart" style="pointer-events:none"></i>
+            € {{ item.price }}</span>
+          <span class="item-name">{{ item.name }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div #orderFoodItems class="row ordersection">
+    <section class="orderfood col-md-7 col-sm-7">
+      <cuisine-orderfood></cuisine-orderfood>
+    </section>
+    <section class="ordercart col-md-5 col-sm-5">
+      <cuisine-ordercart (validity)="validityCheck($event)"></cuisine-ordercart>
+    </section>
+  </div>
+</div>

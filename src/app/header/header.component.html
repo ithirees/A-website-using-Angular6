@@ -1,0 +1,25 @@
+<nav class="navbar navbar-reverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a [routerLink]="['/']">
+        <img src="assets/logo/littleindialogo.png" alt="Little India Resturant" class="navbar-brand">
+        <span class="navbar-title">Little India Healthy Cuisine</span>
+      </a>
+    </div>
+    <div class="nav-toggle">
+      <button class="navbar-toggler" data-target="#headernav" data-toggle="collapse">
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="navbar-collapse collapse" id="headernav">
+        <ul class="nav navbar-nav">
+          <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a></li>
+          <li class="dropdown"><a routerLink="/menu" routerLinkActive="active">Menu</a></li>
+          <li><a routerLink="/order" routerLinkActive="active">Online Order</a></li>
+          <li><a routerLink="/reservation" routerLinkActive="active">Reservation</a></li>
+          <li><a routerLink="/gallery" routerLinkActive="active">Galllery</a></li>
+          <li><a routerLink="/contact" routerLinkActive="active">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>

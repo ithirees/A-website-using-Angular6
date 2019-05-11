@@ -1,0 +1,79 @@
+.contact .row,
+.maplocation {
+  display: flex;
+  align-content: center;
+}
+.maplocation {
+  background: transparent url(../../assets/logo/littleindialogo.png) no-repeat center;
+  background-size: 20em;
+  background-blend-mode: hue;
+}
+iframe {
+  margin: auto;
+  border: 2px solid var(--logo-yellow);
+  height: 45rem;
+  width: 100%;
+}
+.contact .col-md-3 {
+  background: white;
+  padding: 15px;
+}
+.contact-header {
+  padding: 20px;
+  margin: 5px auto;
+  text-align: center;
+  color: var(--logo-yellow);
+  background-color: var(--logo-brown);
+}
+.contact-wrap,
+.contact-inner-wrap {
+  border: 1px solid white;
+}
+.contact-inner-wrap {
+  margin: -10px 10px;
+  padding: 20px;
+}
+.contact-details > section {
+  padding: 10px;
+  margin: 10px auto;
+  font-size: 1em;
+}
+.contact-details > section > span {
+  position: relative;
+  padding: 5px;
+}
+.contact-details > section > span:nth-child(1)::after {
+  content: "";
+  display: inline-block;
+  height: 5px;
+  width: 90%;
+  border-bottom: 1px dotted var(--logo-yellow);
+  position: absolute;
+  left: 8px;
+  top: 25px;
+}
+.contact-details .contact-location,
+.contact-details .contact-time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.contact-location-heading,
+.contact-time-heading {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: var(--logo-yellow);
+}
+.contact-time-close {
+  padding: 5px;
+  background: var(--logo-yellow);
+  color: white;
+  border-radius: 2%;
+  font-weight: bolder;
+}
+@media (max-width: 814px){
+  .contact .row {
+    display: block;
+  }
+}

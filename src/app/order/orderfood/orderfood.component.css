@@ -1,0 +1,156 @@
+.container-fluid {
+  padding: 5px 0;
+  margin-top: 20px;
+}
+
+.menutitle {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  color: var(--logo-yellow);
+  border: 1px dotted var(--logo-yellow);
+  background: none;
+  border-radius: 5px;
+}
+
+.menutitle i.fa-angle-left, .menutitle.initial.collapsed > *:nth-child(3) {
+  transform: rotate(-90deg);
+}
+.menutitle i.fa-angle-right, .menutitle.initial.collapsed i.fa-angle-down:nth-child(1) {
+  transform: rotate(90deg);
+}
+.menutitle.collapsed i.fa-angle-left, .menutitle.collapsed i.fa-angle-right {
+  transform: rotate(0deg);
+}
+
+.menutitle i {
+  font-size: 1.2em;
+  padding: 0 10px;
+  transition: all 800ms ease;
+}
+
+.menutitle h2 {
+  font-size: 1.4em;
+  margin: 0;
+  padding: 2px;
+  z-index: -2;
+}
+
+.menutitledetail {
+  padding-right: 25px;
+  padding-left: 5px;
+}
+
+.menutitledetail>.menutitleitem {
+  padding: 15px 5px;
+  cursor: default;
+}
+
+.menutitleitem {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.menutitleitem img {
+  width: 100px;
+  height: 80px;
+  border: 1px solid var(--logo-yellow);
+  border-radius: 50%;
+}
+
+.menutitleitemdetail .itemname {
+  cursor: help;
+  position: relative;
+}
+
+.menutitleitemdetail .itemname::before,
+.menutitleitemdetail .itemname::after {
+  position: absolute;
+  border-radius: 3px;
+  transition: all 500ms ease;
+  z-index: -2;
+  opacity: 0;
+}
+
+.menutitleitemdetail .itemname::before {
+  content: '';
+  display: block;
+  border: 8px solid var(--logo-brown);
+  border-right-color: transparent;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  top: -0.9em;
+  left: 0.2em;
+}
+
+.menutitleitemdetail .itemname::after {
+  content: attr(data-popup);
+  background: var(--logo-brown);
+  color: white;
+  font-size: 0.8em;
+  top: 0;
+  left: 0;
+  text-align: justify;
+  width: 15em;
+  padding: .4em;
+}
+
+.menutitleitemdetail .itemname:hover::after,
+.menutitleitemdetail .itemname:hover::before {
+  opacity: 1;
+  z-index: 2;
+}
+
+.menutitleitemdetail .itemname:hover::after {
+  top: 1.7em;
+  left: 3.6em;
+}
+
+.menutitleitemdetail .itemname:hover::before {
+  top: 0.5em;
+  left: 3em;
+}
+
+.itemprice {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  user-select: none;
+}
+.itemprice:hover {
+  background-color: var(--logo-yellow);
+  cursor: pointer;
+}
+.ribbontag {
+  position: absolute;
+  background-color: var(--logo-brown);
+  color: white;
+  text-align: center;
+  padding: 2px 0;
+  top: 0.8em;
+  right: -0.2em;
+  border-radius: 3px;
+  width: 35%;
+}
+
+.ribbontag::before {
+  content: '';
+  position: absolute;
+  display: block;
+  border: 8px solid var(--logo-brown);
+  border-radius: 20%;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  bottom: -0.9em;
+  left: 0;
+  z-index: -2;
+}
+
+i.fa {
+  pointer-events: none;
+}

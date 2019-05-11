@@ -1,0 +1,95 @@
+.reserveinfo {
+  /* display: flex; */
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  position: absolute;
+  /* top: 10px; */
+  opacity: 0;
+  z-index: -2;
+}
+.reserveinfo h2 {
+  color: var(--logo-brown);
+  font-size: 1.4em;
+  padding: 20px;
+  letter-spacing: 1px;
+}
+.reserveinfo h2::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-bottom: 1px solid var(--logo-brown);
+  padding-top: 8px;
+}
+.reserveinfo h2::after {
+  width: 40%;
+  left: 30%;
+}
+.reserveinfo h2::after {
+  width: 30%;
+  left: 35%;
+}
+.reserveinfo div > input[type='radio']{
+  cursor: pointer;
+}
+.tablelocate {
+  font-size: 1.2em;
+  color: var(--logo-brown);
+  text-align: center;
+}
+.tablelocate label, :host::ng-deep .locatetableoption label {
+  color: black;
+  margin: auto 0.4em;
+  cursor: pointer;
+  font-weight: normal;
+}
+.tablelocate > input {
+  margin-left: 12px;
+}
+
+:host::ng-deep .locatetableoption {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width:80%;
+  margin:auto;
+}
+:host::ng-deep .locatetableoption > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  border: 1px solid lavender;
+  border-radius: 1em;
+}
+:host::ng-deep .locatetableoption .locate {
+  width: 45%;
+}
+
+.personaldetail > input {
+  margin-top: 15px;
+}
+.personaldetail input:nth-child(2),
+.personaldetail input:nth-child(3) {
+  width: 50%;
+}
+.personaldetail > textarea {
+  margin-top: 15px;
+  resize: none;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .personaldetail input:nth-child(2),
+  .personaldetail input:nth-child(3) {
+    width: 100%;
+  }
+  .tablelocate {
+    font-size: 1em;
+  }
+  .tablelocate > input {
+    margin-left: 0;
+    padding: 2px;
+  }
+}

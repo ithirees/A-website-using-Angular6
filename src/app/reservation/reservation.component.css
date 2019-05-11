@@ -1,0 +1,111 @@
+.parallax {
+  position: relative;
+  z-index: 6;
+}
+.parallax .container-fluid {
+  padding: 30px 0 30px 0;
+}
+.container-fluid .reserveform {
+  background-color: var(--logo-brown);
+  padding: 45px 40px;
+}
+@keyframes lefthide {
+  from {
+    left: 0;
+    opacity: 1;
+  }
+
+  to {
+    left: -100%;
+    opacity: 0;
+  }
+}
+@keyframes reserveformshow {
+  to {
+    opacity: 1;
+  }
+}
+form {
+  margin: 0 auto;
+}
+.reserve-wrap,
+.reserve-inner-wrap {
+  border: 1px solid white;
+}
+
+.reserve-inner-wrap {
+  margin: -12px 10px;
+  padding: 10px 0px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form .reservetable {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+form .reservetable h2 {
+  color: var(--logo-yellow);
+  text-align: center;
+}
+
+.reservetable > label {
+  margin-top: 10px;
+}
+
+.reserve-table > .input-group {
+  margin-bottom: 10px;
+}
+
+.reserve-table > .input-group > .form-group {
+  margin-bottom: 0;
+}
+
+.reserve-table .input-group {
+  width: 100%;
+}
+
+.reserve-table input,
+.reserve-table select {
+  cursor: pointer;
+}
+#reservedate {
+  -webkit-appearance: none;
+}
+#reservedate::-webkit-inner-spin-button {
+  display: none;
+  -webkit-appearance: none;
+}
+/* #reservedate::-webkit-calendar-picker-indicator {
+  opacity: 0;
+} */
+.input-group-addon.calendar {
+  cursor: pointer;
+}
+
+.input-group .form-group {
+  padding: 2px;
+}
+
+.input-group .form-group .form-control {
+  border-radius: 3px;
+}
+
+@media (max-width: 780px) and (max-width: 980px) {
+  .reservetable {
+    width: 80%;
+  }
+}
+
+@media (max-width: 780px) {
+  .reservetable {
+    margin: auto;
+  }
+
+  .input-group .form-group .form-control {
+    padding: 0;
+  }
+}

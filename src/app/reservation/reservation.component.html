@@ -1,0 +1,73 @@
+<section class="parallax col-md-12">
+  <div class="container-fluid">
+    <form class="form-group"  #reserveform>
+      <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 reserveform">
+        <section class="reserve-wrap">
+          <section class="reserve-inner-wrap">
+            <div class="reservetable">
+              <h2>Make A Reservation</h2>
+              <label for="reservedate">Pick a date</label>
+              <div class="input-group">
+                <input type="date" name="reserve_date" id="reservedate" class="form-control" autofocus>
+                <label for="reservedate" class="input-group-addon calendar"><i class="fa fa-calendar"></i></label>
+              </div>
+              <label>Pick a time</label>
+              <div class="input-group col-md-12 col-sm-12 col-xs-12">
+                <div class="col-md-4 col-sm-4 col-xs-4 reservetime-hour form-group">
+                  <select name="reservetime_hour" class="form-control">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                  </select>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 reservetime-minute form-group">
+                  <select name="reservetime_minutes" class="form-control">
+                    <option value="00">00</option>
+                    <option value="05">05</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="25">25</option>
+                    <option value="30">30</option>
+                    <option value="35">35</option>
+                    <option value="40">40</option>
+                    <option value="45">45</option>
+                    <option value="50">50</option>
+                    <option value="55">55</option>
+                  </select>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 reservetime-meridian form-group">
+                  <select name="reservetime_meridian" class="form-control">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                  </select>
+                </div>
+              </div>
+              <label>Number of People</label>
+              <div class="form-group">
+                <select name="reservepeople_number" class="form-control">
+                  <option value="2">2 people</option>
+                  <option value="3">3 people</option>
+                  <option value="4">4 people</option>
+                  <option value="5">5 people</option>
+                  <option value="6">6 people</option>
+                </select>
+              </div>
+              <input type="button" class="btn btn-default btn-style" (click)="checkReservation()" value="Find a Table">
+            </div>
+          </section>
+        </section>
+      </div>
+      <cuisine-reserveinfo></cuisine-reserveinfo>
+    </form>
+  </div>
+</section>

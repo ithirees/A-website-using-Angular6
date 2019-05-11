@@ -1,0 +1,37 @@
+.container, .container-fluid {
+    margin-top: 5%;
+}
+.container .row {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.focus {
+    padding: 10px;
+}
+.focus-detail {
+    line-height: 2em;
+}
+.focus-detail-title {
+    margin: 2px;
+    padding: 5px;
+    text-transform: capitalize;
+    color: var(--logo-yellow);
+}
+.focus-detail-desc {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 1.1em;    
+    text-align: justify;
+    text-indent: 3em;
+}
+section.focus-image {
+    padding: 5px;
+    height: 288px;
+}
+@media only screen and (max-width: 414px) {
+    .focus-detail {
+      line-height: 1.5em;
+    }
+}

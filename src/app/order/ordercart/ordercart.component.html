@@ -1,0 +1,31 @@
+<section class="addcart">
+  <h2 class="addcart-title">My Order</h2>
+  <section class="cartitems" #ordercart>
+    <div class="cartitemstitle col-md-12">
+      <span class="col-md-6">Name</span>
+      <span class="col-md-2">Qty</span>
+      <span class="col-md-2">Cost</span>
+      <span class="col-md-2">Action</span>
+    </div>
+    <div class="cartitemslist">
+      <div *ngFor="let item of cartList; let i = index" class="col-md-12 cartitem{{i}}">
+        <span class="col-md-6 ordername">{{item.name}}</span>
+        <span class="col-md-2">
+          <input type="number" max="50" min="1" class="orderquantity" [(ngModel)]="item.quantity">
+        </span>
+        <span class="col-md-2">
+          <p class="orderprice">{{item.price * item.quantity | number:'1.1-2'}}</p>
+        </span>
+        <span class="col-md-2"><i class="fa fa-times" style="display:block;cursor:pointer;margin:0px 10px;" (click)="removeitem($event)"></i></span>
+      </div>
+    </div>
+    <div class="cartitemsorder">
+      <div class="cartitemstotal col-md-12">
+        <span class="cartitemtotalheader">Total</span>
+        <span class="cartitemtotalprice">€ {{ totalprice | number: '1.1-2'}}</span>
+      </div>
+      <input type="button" value="Order Now" (click)="completeTransaction()" class="btn btn-default btn-style">
+    </div>
+  </section>
+  <span attr.data-count="{{ cartitemtotal }}" class="carticon" (click)="orderCart()"><i class="fa fa-shopping-cart fa-2x"></i></span>
+</section>

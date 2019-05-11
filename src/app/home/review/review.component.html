@@ -1,0 +1,29 @@
+<section class="parallax">
+  <div class="container-fluid">
+    <div class="review-title">
+      <h2 class="review-title-head">Reviews</h2>
+      <span class="review-title-line"></span>
+    </div>
+    <div class="row  reviews-list">
+      <div class="col-md-12">
+        <!-- Review Carousel -->
+        <div id="bottomCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Review Carousel slider -->
+          <div class="carousel-inner">
+            <div class="item" *ngFor="let review of reviews; let i = index;" [ngClass]="{'active': i == 0}">
+              <p class="reviewer-desc">{{review.reviewerDescription}}</p>
+              <p class="reviewer-name">{{review.reviewerName}}</p>
+            </div>
+          </div>
+          <!-- Review Carousel Controls -->
+          <a href="#bottomCarousel" class="left carousel-control" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+          </a>
+          <a href="#bottomCarousel" class="right carousel-control" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
